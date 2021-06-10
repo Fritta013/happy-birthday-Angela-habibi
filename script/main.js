@@ -195,8 +195,8 @@ const animationTimeline = () => {
       "-=2"
     )
     .from(".hat", 0.5, {
-      x: -150,
-      y: 350,
+      x: -300,
+      y: 500,
       rotation: -160,
       opacity: 0
     })
