@@ -60,32 +60,19 @@ const animationTimeline = () => {
     )
     .from(".three", 0.7, {
       opacity: 0,
-      y: 10
+      y: 5
       // scale: 0.7
     })
     .to(
       ".three",
-      0.7,
+      0.3,
       {
         opacity: 0,
         y: 10
       },
       "+=2"
     )
-   .from(".kimathree", 0.7, {
-      opacity: 0,
-      y: 10
-      // scale: 0.7
-    })
-    .to(
-      ".kimathree",
-      0.7,
-      {
-        opacity: 0,
-        y: 10
-      },
-      "+=2"
-    )
+
     .from(".four", 0.7, {
       scale: 0.2,
       opacity: 0
