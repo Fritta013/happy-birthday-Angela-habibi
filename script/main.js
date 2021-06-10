@@ -78,7 +78,7 @@ const animationTimeline = () => {
       // scale: 0.7
     })
     .to(
-      ".three",
+      ".kimathree",
       0.7,
       {
         opacity: 0,
