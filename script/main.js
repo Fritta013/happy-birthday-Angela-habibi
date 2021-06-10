@@ -32,7 +32,7 @@ const animationTimeline = () => {
     .to(".container", 0.1, {
       visibility: "visible"
     })
-    .from(".one", 0.7, {
+    .from(".one", 1, {
       opacity: 0,
       y: 10
     })
@@ -58,7 +58,7 @@ const animationTimeline = () => {
       },
       "-=1"
     )
-    .from(".three", 3, {
+    .from(".three", 4, {
       opacity: 0,
       y: 5
       // scale: 0.7
@@ -73,7 +73,7 @@ const animationTimeline = () => {
       "+=2"
     )
 
-    .from(".four", 0.7, {
+    .from(".four", 1, {
       scale: 0.2,
       opacity: 0
     })
@@ -102,23 +102,23 @@ const animationTimeline = () => {
       },
       "+=0.7"
     )
-    .from(".idea-1", 0.7, ideaTextTrans)
-    .to(".idea-1", 0.7, ideaTextTransLeave, "+=1.5")
-    .from(".idea-2", 0.7, ideaTextTrans)
-    .to(".idea-2", 0.7, ideaTextTransLeave, "+=1.5")
-    .from(".idea-3", 0.7, ideaTextTrans)
-    .to(".idea-3 strong", 0.5, {
+    .from(".idea-1", 1, ideaTextTrans)
+    .to(".idea-1", 1, ideaTextTransLeave, "+=1.5")
+    .from(".idea-2", 3, ideaTextTrans)
+    .to(".idea-2", 1, ideaTextTransLeave, "+=1.5")
+    .from(".idea-3", 1, ideaTextTrans)
+    .to(".idea-3 strong", 1, {
       scale: 1.2,
       x: 10,
       backgroundColor: "rgb(21, 161, 237)",
       color: "#fff"
     })
-    .to(".idea-3", 0.7, ideaTextTransLeave, "+=1.5")
-    .from(".idea-4", 0.7, ideaTextTrans)
-    .to(".idea-4", 0.7, ideaTextTransLeave, "+=1.5")
+    .to(".idea-3", 1, ideaTextTransLeave, "+=1.5")
+    .from(".idea-4", 1, ideaTextTrans)
+    .to(".idea-4", 1, ideaTextTransLeave, "+=1.5")
     .from(
       ".idea-5",
-      0.7,
+      1,
       {
         rotationX: 15,
         rotationZ: -10,
@@ -149,7 +149,7 @@ const animationTimeline = () => {
     )
     .staggerFrom(
       ".idea-6 span",
-      0.8,
+      1,
       {
         scale: 3,
         opacity: 0,
